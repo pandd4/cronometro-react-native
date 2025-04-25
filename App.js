@@ -48,33 +48,19 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#282C34',  // Cor de fundo mais escura
+    backgroundColor: '#000000', // fundo preto
     justifyContent: 'center',
     alignItems: 'center',
   },
   timer: {
-    fontSize: 80,  // Aumentando o tamanho da fonte
+    fontSize: 60,
     fontWeight: 'bold',
-    color: '#FFFFFF',  // Texto branco para contraste
+    color: '#FFFFFF', // texto branco
     marginBottom: 40,
-    textShadowColor: '#000',  // Sombra no texto para destacar
-    textShadowOffset: { width: 1, height: 1 },
-    textShadowRadius: 10,
   },
   buttons: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     width: '80%',
-    marginTop: 30,
-  },
-  button: {
-    borderRadius: 10,  // Borda arredondada nos botões
-    padding: 10,
-    backgroundColor: '#2196F3',
-    shadowColor: '#000',  // Sombra para o botão
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.3,
-    shadowRadius: 3,
   },
 });
-                                                                                    
